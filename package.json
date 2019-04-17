@@ -1,0 +1,21 @@
+{
+  "name": "tronbox-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tronbox.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tronbox migrate --reset --network development",
+    "shasta": "tronbox migrate --reset --network shasta",
+    "mainnet": "tronbox migrate --network mainnet"
+  },
+  "author": "UPDC",
+  "license": "ISC"
+}
